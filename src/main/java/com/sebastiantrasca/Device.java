@@ -50,8 +50,13 @@ public class Device {
 
     @Override
     public String toString() {
+        StringBuilder properties = new StringBuilder();
+        for(String key : fields.keySet())
+        {
+            properties.append(key + ": " + fields.get(key) + '\n');
+        }
         return "classId: " + classId +
                 "\n Type: " + type +
-                "\n Properties: \n" + fields;
+                "\n Properties: \n" + properties;
     }
 }
