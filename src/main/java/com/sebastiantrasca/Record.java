@@ -1,4 +1,4 @@
-package sebastiantrasca;
+package com.sebastiantrasca;
 
 
 import com.fasterxml.jackson.annotation.JsonCreator;
