@@ -38,4 +38,3 @@ public class Record {
                 "\n Device info:\n" + device;
     }
 }
-a
